@@ -220,6 +220,34 @@ main {
     line-height: 1.4;
 }
 
+.happy-to-discuss {
+    margin-bottom: 1rem;
+}
+
+.happy-to-discuss h4 {
+    font-size: 0.9rem;
+    color: #115740;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.discussion-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.topic-tag {
+    background: #f8f3e3;
+    color: #B99C22;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid #e6d8b8;
+    font-weight: 500;
+}
+
 .contact-links {
     display: flex;
     gap: 1rem;

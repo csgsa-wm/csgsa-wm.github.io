@@ -10,6 +10,7 @@ async function loadProfiles() {
         const response = await fetch('profiles.json');
         allProfiles = await response.json();
         displayProfiles(allProfiles);
+        updateFilterCounts();
     } catch (error) {
         console.error('Error loading profiles:', error);
         document.getElementById('profile-wall').innerHTML =
@@ -35,8 +36,10 @@ function setupFilters() {
 
 function categorizeProfile(profile) {
     const securityKeywords = ['security', 'privacy', 'cryptographic', 'secure'];
-    const systemsKeywords = ['iot', 'wireless', 'sensor', 'smart cities', 'edge', 'vehicle'];
-    const aiKeywords = ['ai', 'machine learning', 'generative', 'image processing'];
+    const systemsKeywords = ['iot', 'wireless', 'sensor', 'smart cities', 'edge', 'vehicle', 'gpu', 'architecture', 'systems', 'performance'];
+    const aiKeywords = ['ai', 'machine learning', 'generative', 'image processing', 'explainable', 'interpretability', 'deep learning'];
+    const softwareKeywords = ['software engineering', 'code analysis', 'code generation', 'large code models', 'code tasks', 'developer'];
+    const hciKeywords = ['human-computer interaction', 'hci', 'human-llm', 'user experience', 'educational technology', 'mental health', 'cultural ai', 'human-ai'];
     const roboticsKeywords = ['robotics', 'computing', 'vehicle computing'];
 
     const researchText = profile.researchAreas.join(' ').toLowerCase();
@@ -54,11 +57,38 @@ function categorizeProfile(profile) {
     if (aiKeywords.some(keyword => combinedText.includes(keyword))) {
         categories.push('ai');
     }
+    if (softwareKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('software');
+    }
+    if (hciKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('hci');
+    }
     if (roboticsKeywords.some(keyword => combinedText.includes(keyword))) {
         categories.push('robotics');
     }
 
     return categories;
+}
+
+function updateFilterCounts() {
+    const categories = ['all', 'security', 'systems', 'ai', 'software', 'hci', 'robotics'];
+
+    categories.forEach(category => {
+        let count;
+        if (category === 'all') {
+            count = allProfiles.length;
+        } else {
+            count = allProfiles.filter(profile => {
+                const profileCategories = categorizeProfile(profile);
+                return profileCategories.includes(category);
+            }).length;
+        }
+
+        const button = document.querySelector(`[data-category="${category}"] .count`);
+        if (button) {
+            button.textContent = `(${count})`;
+        }
+    });
 }
 
 function filterProfiles(category) {
@@ -106,6 +136,15 @@ function createProfileCard(profile) {
             <h4>Interests</h4>
             <p>${profile.interests}</p>
         </div>
+
+        ${profile.happyToDiscuss ? `
+        <div class="happy-to-discuss">
+            <h4>💬 Happy to discuss about</h4>
+            <div class="discussion-topics">
+                ${profile.happyToDiscuss.map(topic => `<span class="topic-tag">${topic}</span>`).join('')}
+            </div>
+        </div>
+        ` : ''}
 
         <div class="contact-links">
             ${profile.links.map(link => `<a href="${link.url}" target="_blank">${link.label}</a>`).join('')}

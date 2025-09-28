@@ -1,10 +1,11 @@
 [
   {
     "name": "Prianka Mandal",
-    "photo": "https://ui-avatars.com/api/?name=Prianka+Mandal&size=150&background=115740&color=ffffff&rounded=true&bold=true",
-    "program": "PhD Candidate, Spring 2026",
+    "photo": "https://priankamandal.com/images/Prianka2.jpg",
+    "program": "PhD Candidate",
     "researchAreas": ["Security & Privacy", "Usable Security", "IoT Security", "Smart Cities"],
     "interests": "Usable security and privacy in smart cities and smart homes. Focus on IoT app security certification and privacy practices.",
+    "happyToDiscuss": ["User experience research", "IoT privacy frameworks", "Smart city ethics", "Python for security research"],
     "links": [
       {"label": "Website", "url": "https://priankamandal.com/"},
       {"label": "Lab", "url": "https://spl-wm.github.io/"}
@@ -12,10 +13,11 @@
   },
   {
     "name": "Victor Olaiya",
-    "photo": "https://ui-avatars.com/api/?name=Victor+Olaiya&size=150&background=B99C22&color=ffffff&rounded=true&bold=true",
-    "program": "PhD Student, Spring 2027",
+    "photo": "https://www.victorolaiya.com/images/headshot.jpg",
+    "program": "PhD Candidate",
     "researchAreas": ["Cryptographic APIs", "Software Security", "Developer Security"],
     "interests": "Cryptographic API implementations by developers and security vulnerabilities in software development.",
+    "happyToDiscuss": ["API design patterns", "Secure coding practices", "Developer tools", "JavaScript security"],
     "links": [
       {"label": "Website", "url": "https://www.victorolaiya.com/"},
       {"label": "Email", "url": "mailto:voolaiya@wm.edu"},
@@ -25,20 +27,22 @@
   },
   {
     "name": "Yichen Luo",
-    "photo": "https://ui-avatars.com/api/?name=Yichen+Luo&size=150&background=115740&color=ffffff&rounded=true&bold=true",
+    "photo": "https://sidilu.org/images/MOST24/YichenLuo1.jpg",
     "program": "PhD Student",
     "researchAreas": ["IoT", "Wireless Sensor Networks", "Applied AI", "Edge Computing"],
     "interests": "IoT systems, wireless sensor networks, and applied AI research in vehicle computing environments.",
+    "happyToDiscuss": ["Sensor data analysis", "Edge AI deployment", "Vehicle computing projects", "Wireless protocols"],
     "links": [
       {"label": "Lab", "url": "https://sidilu.org/lab.html"}
     ]
   },
   {
     "name": "Junzhou",
-    "photo": "https://ui-avatars.com/api/?name=Junzhou&size=150&background=B99C22&color=ffffff&rounded=true&bold=true",
+    "photo": "https://sidilu.org/images/MOST24/Junzhou-min.png",
     "program": "PhD Student",
     "researchAreas": ["Robotics", "Image Processing", "Generative AI", "Vehicle Computing"],
     "interests": "Robotics research with focus on image processing and generative AI applications in vehicle computing systems.",
+    "happyToDiscuss": ["Computer vision techniques", "Robotics frameworks", "AI model deployment", "Autonomous systems"],
     "links": [
       {"label": "Lab", "url": "https://sidilu.org/lab.html"}
     ]
@@ -46,11 +50,250 @@
   {
     "name": "Md. Akram Khan",
     "photo": "https://ui-avatars.com/api/?name=Md+Akram+Khan&size=150&background=115740&color=ffffff&rounded=true&bold=true",
-    "program": "PhD Student, Spring 2028",
+    "program": "PhD Candidate",
     "researchAreas": ["Security Research", "Secure Platforms"],
     "interests": "Security research focusing on secure platforms and systems security.",
+    "happyToDiscuss": ["Platform security design", "Threat modeling", "Security architecture", "Vulnerability research"],
     "links": [
       {"label": "Lab", "url": "https://spl-wm.github.io/"}
+    ]
+  },
+  {
+    "name": "Saima Afrin",
+    "photo": "https://aura-se-lab.github.io/assets/img/saima.jpg",
+    "program": "PhD Candidate",
+    "researchAreas": ["Green AI", "Large Language Models", "Code Generation", "AI Ethics"],
+    "interests": "Developing environmentally sustainable AI models and large language models for code understanding and generation.",
+    "happyToDiscuss": ["Sustainable ML practices", "LLM optimization", "Code model evaluation", "AI environmental impact"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Aya Garryyeva",
+    "photo": "https://aura-se-lab.github.io/assets/img/aya.jpg",
+    "program": "PhD Student",
+    "researchAreas": ["AI Interpretability", "Software Engineering", "Trustworthy AI", "Machine Learning"],
+    "interests": "Making AI models for software engineering tasks more interpretable and trustworthy through explainable AI techniques.",
+    "happyToDiscuss": ["Explainable AI methods", "Model interpretability", "Trust in AI systems", "Software engineering applications"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Joseph Call",
+    "photo": "https://aura-se-lab.github.io/assets/img/joseph.jpg",
+    "program": "PhD Student",
+    "researchAreas": ["Resource-Efficient ML", "Code Analysis", "Code Generation", "Machine Learning"],
+    "interests": "Developing resource-efficient approaches to machine learning for code analysis and generation tasks.",
+    "happyToDiscuss": ["Efficient ML architectures", "Code analysis techniques", "Model compression", "Guitar playing"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Khai Nguyen-Nguyen",
+    "photo": "https://aura-se-lab.github.io/assets/img/khai.jpeg",
+    "program": "PhD Student",
+    "researchAreas": ["Explainable AI", "Large Code Models", "AI Transparency", "Feature Attribution"],
+    "interests": "Research in explainability for large code models, focusing on making AI systems more transparent through feature-level explanations.",
+    "happyToDiscuss": ["XAI for code models", "Feature attribution methods", "AI transparency", "Model explanation techniques"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Md Zahidul Haque Alvi",
+    "photo": "https://aura-se-lab.github.io/assets/img/alvi.jpeg",
+    "program": "PhD Student",
+    "researchAreas": ["Parameter-Efficient Fine-Tuning", "Large Code Models", "Model Optimization", "Software Engineering"],
+    "interests": "Research in parameter-efficient fine-tuning techniques for large code models and model optimization strategies.",
+    "happyToDiscuss": ["Fine-tuning strategies", "Model efficiency", "Code model adaptation", "Software engineering workflows"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Zaiyu (Chris) Cheng",
+    "photo": "https://aura-se-lab.github.io/assets/img/chris.jpeg",
+    "program": "PhD Student",
+    "researchAreas": ["Large Language Models", "Code Tasks", "Data Integration", "Model Optimization"],
+    "interests": "Research in large language models for code-related tasks, data integration methodologies, and model optimization techniques.",
+    "happyToDiscuss": ["LLM applications", "Data integration patterns", "Model optimization", "Gaming and fitness"],
+    "links": [
+      {"label": "Lab", "url": "https://aura-se-lab.github.io/"}
+    ]
+  },
+  {
+    "name": "Ying Li",
+    "photo": "https://yingliphd.com/images/photo.jpg",
+    "program": "PhD Candidate",
+    "researchAreas": ["GPU Architecture", "Machine Learning", "Computer Systems", "Performance Modeling"],
+    "interests": "GPU architecture research with focus on machine learning workloads, developing lightweight simulators for multi-GPU systems and DNN execution time prediction.",
+    "happyToDiscuss": ["GPU performance optimization", "Multi-GPU systems", "DNN workload simulation", "Computer architecture"],
+    "links": [
+      {"label": "Website", "url": "https://yingliphd.com/#about_me"},
+      {"label": "Email", "url": "mailto:yli81@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Chris Thames",
+    "photo": "https://sarchlab.org/chris_thames.jpeg",
+    "program": "Part-Time PhD Candidate",
+    "researchAreas": ["Computer Architecture", "Systems Research", "Performance Analysis"],
+    "interests": "Computer systems and architecture research focusing on performance analysis and optimization of computing systems.",
+    "happyToDiscuss": ["Systems performance", "Computer architecture", "Research methodologies", "Part-time PhD experience"],
+    "links": [
+      {"label": "Email", "url": "mailto:dcthames@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Sabila Al Jannat",
+    "photo": "https://sarchlab.org/sabila_profile.jpeg",
+    "program": "PhD Candidate",
+    "researchAreas": ["Computer Architecture", "Systems Research", "Performance Optimization"],
+    "interests": "Computer architecture and systems research with emphasis on performance optimization and system design.",
+    "happyToDiscuss": ["Architecture design", "System optimization", "Research collaboration", "Performance analysis"],
+    "links": [
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sabila-al-jannat-69826718b"},
+      {"label": "Email", "url": "mailto:sajannat@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Daoxuan Xu",
+    "photo": "https://sarchlab.org/daoxuan.jpg",
+    "program": "PhD Candidate",
+    "researchAreas": ["Computer Architecture", "Systems Research", "Interdisciplinary Research"],
+    "interests": "Computer architecture and systems research with interdisciplinary approach across multiple research areas.",
+    "happyToDiscuss": ["Interdisciplinary research", "Architecture innovation", "Research collaboration", "Systems design"],
+    "links": [
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/道煊-徐-23223323b/"},
+      {"label": "Email", "url": "mailto:dxu05@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Enze Xu",
+    "photo": "https://xuenze.com/image/Enze2023.jpg",
+    "program": "PhD Student",
+    "researchAreas": ["GPU Architecture", "Performance Modeling", "Deep Learning", "Computational Biology"],
+    "interests": "GPU architecture and performance modeling with applications to deep learning in computational biology, including Alzheimer's disease research and molecular dynamics.",
+    "happyToDiscuss": ["GPU programming", "Computational biology", "Performance modeling", "Interdisciplinary research"],
+    "links": [
+      {"label": "Website", "url": "https://xuenze.com/"},
+      {"label": "Email", "url": "mailto:exu03@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Yijia Shi",
+    "photo": "https://ui-avatars.com/api/?name=Yijia+Shi&size=150&background=115740&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Student",
+    "researchAreas": ["Computer Architecture", "Systems Research", "Performance Analysis"],
+    "interests": "Computer architecture and systems research with focus on performance analysis and optimization of modern computing systems.",
+    "happyToDiscuss": ["Computer systems", "Architecture research", "Performance optimization", "Research methodologies"],
+    "links": [
+      {"label": "Email", "url": "mailto:yshi16@wm.edu"},
+      {"label": "Lab", "url": "https://sarchlab.org/"}
+    ]
+  },
+  {
+    "name": "Antu Saha",
+    "photo": "https://ojcchar.github.io/images/lab/antu.png",
+    "program": "PhD Student",
+    "researchAreas": ["Software Engineering", "Software Maintenance", "Bug Triage", "Deep Learning for SE"],
+    "interests": "Software engineering research focusing on software maintenance and evolution, bug triage and resolution, and applying deep learning techniques to software engineering problems.",
+    "happyToDiscuss": ["Bug resolution patterns", "LLMs for software engineering", "UI localization", "Developer discussion analysis"],
+    "links": [
+      {"label": "Website", "url": "https://antu-saha.github.io/"},
+      {"label": "Lab", "url": "https://ojcchar.github.io/lab/"}
+    ]
+  },
+  {
+    "name": "Trevor Stalnaker",
+    "photo": "https://ojcchar.github.io/images/lab/trevor.png",
+    "program": "PhD Student",
+    "researchAreas": ["Software Engineering", "Research Methodologies"],
+    "interests": "Software engineering research focusing on techniques and methodologies for software development with collaborative research approach.",
+    "happyToDiscuss": ["Software development methodologies", "Research collaboration", "Academic projects", "Cross-disciplinary work"],
+    "links": [
+      {"label": "Website", "url": "https://www.twstalnaker.com/"},
+      {"label": "Lab", "url": "https://ojcchar.github.io/lab/"}
+    ]
+  },
+  {
+    "name": "Nathan Wintersgill",
+    "photo": "https://ojcchar.github.io/images/lab/nathan.png",
+    "program": "PhD Student",
+    "researchAreas": ["Software Engineering", "Research Methodologies"],
+    "interests": "Software engineering research focusing on program analysis and software development techniques with collaborative research methods.",
+    "happyToDiscuss": ["Program analysis", "Software development tools", "Research collaboration", "Research methodologies"],
+    "links": [
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/nathan-wintersgill/"},
+      {"label": "Lab", "url": "https://ojcchar.github.io/lab/"}
+    ]
+  },
+  {
+    "name": "Nadeeshan De Silva",
+    "photo": "https://ojcchar.github.io/images/lab/nadeeshan.png",
+    "program": "PhD Candidate",
+    "researchAreas": ["Software Engineering", "Bug Localization", "Machine Learning", "Bioinformatics"],
+    "interests": "Interdisciplinary research combining software engineering with machine learning, focusing on bug localization, automated testing, and bioinformatics applications.",
+    "happyToDiscuss": ["Bug reporting systems", "GUI interaction analysis", "Bioinformatics algorithms", "Healthcare technology"],
+    "links": [
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/nadeeshangimhana/"},
+      {"label": "Lab", "url": "https://ojcchar.github.io/lab/"}
+    ]
+  },
+  {
+    "name": "Mehedi Sun",
+    "photo": "https://ojcchar.github.io/images/lab/mehedi3.png",
+    "program": "PhD Student",
+    "researchAreas": ["Software Engineering", "Program Analysis"],
+    "interests": "Software engineering research with focus on program analysis techniques and software development methodologies.",
+    "happyToDiscuss": ["Program analysis tools", "Software quality", "Development processes", "Research techniques"],
+    "links": [
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/mehedi-hasan-sun/"},
+      {"label": "Lab", "url": "https://ojcchar.github.io/lab/"}
+    ]
+  },
+  {
+    "name": "Yimeng (\"Yvonne\") Wang",
+    "photo": "https://zjanice.github.io/assets/images/yimeng_hs.png",
+    "program": "PhD Student",
+    "researchAreas": ["Human-Computer Interaction", "Artificial Intelligence", "Human-LLM Interaction"],
+    "interests": "Human-computer interaction research with focus on AI systems and human-LLM interaction. Background in statistics from University of Notre Dame.",
+    "happyToDiscuss": ["HCI design principles", "AI user experience", "LLM interaction patterns", "Statistical analysis"],
+    "links": [
+      {"label": "Website", "url": "https://yimengyvonne.github.io/"},
+      {"label": "Lab", "url": "https://zjanice.github.io/team.html"}
+    ]
+  },
+  {
+    "name": "Wenhan Lyu",
+    "photo": "https://zjanice.github.io/assets/images/wenhan_hs.jpeg",
+    "program": "PhD Student",
+    "researchAreas": ["Human-Computer Interaction", "Generative AI", "Educational Technology"],
+    "interests": "Human-computer interaction research focusing on how people communicate with Generative AI and its effects on education. Background from NYU Computer Science.",
+    "happyToDiscuss": ["Generative AI in education", "Human-AI communication", "Educational interfaces", "AI pedagogy"],
+    "links": [
+      {"label": "Website", "url": "https://www.wenhanlyu.com/"},
+      {"label": "Lab", "url": "https://zjanice.github.io/team.html"}
+    ]
+  },
+  {
+    "name": "Yinzhou Wang",
+    "photo": "https://zjanice.github.io/assets/images/yinzhou_hs.jpeg",
+    "program": "PhD Student",
+    "researchAreas": ["Human-LLM Interaction", "Mental Health", "AI-Assisted Therapy", "Cultural AI"],
+    "interests": "Human-LLM interaction in mental health contexts, particularly LLM-enabled psychotherapy, cultural adaptation in LLMs, and AI-assisted mental health interventions. Background in quantitative biomedical sciences.",
+    "happyToDiscuss": ["AI mental health applications", "Cultural sensitivity in AI", "Psychotherapy technology", "Biomedical data science"],
+    "links": [
+      {"label": "Website", "url": "https://www.yinzhouwang.com/"},
+      {"label": "Lab", "url": "https://zjanice.github.io/team.html"}
     ]
   }
 ]
