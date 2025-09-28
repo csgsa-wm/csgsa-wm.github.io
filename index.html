@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSGSA Graduate Student Wall</title>
+    <title>William & Mary Computer Science Graduate Student Wall</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Computer Science Graduate Student Wall</h1>
-        <p>Discover research areas and interests of your fellow graduate students</p>
+        <div class="header-content">
+            <img src="logos/wm_horizontal_single_line_white.png" alt="William & Mary Logo" class="wm-logo wm-logo-horizontal">
+            <img src="logos/wm_vertical_stacked_white.png" alt="William & Mary Logo" class="wm-logo wm-logo-vertical">
+            <div class="header-text">
+                <h1>William & Mary Computer Science Graduate Student Wall</h1>
+                <p>Connect with fellow grad students, explore diverse research areas, and find potential collaborators in our vibrant CS community! 🎓</p>
+            </div>
+        </div>
     </header>
 
     <main>
+        <div class="filter-section">
+            <h2>🔍 Explore Research Areas</h2>
+            <p class="filter-description">Find students working in areas that interest you! Click on a research area below to see relevant profiles.</p>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All Students <span class="count">(5)</span></button>
+                <button class="filter-btn" data-category="security">🔒 Security & Privacy <span class="count">(3)</span></button>
+                <button class="filter-btn" data-category="systems">🌐 IoT & Systems <span class="count">(3)</span></button>
+                <button class="filter-btn" data-category="ai">🤖 AI & Machine Learning <span class="count">(2)</span></button>
+                <button class="filter-btn" data-category="robotics">🚗 Robotics & Computing <span class="count">(2)</span></button>
+            </div>
+        </div>
+
         <div id="profile-wall" class="profile-grid">
             <!-- Profiles will be loaded here -->
         </div>
     </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <h3>💻 Created with ❤️ by CSGSA</h3>
+                <p>The Computer Science Graduate Student Association at William & Mary</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Get Involved</h4>
+                    <p>Want to add your profile? Submit a pull request to <a href="https://github.com/csgsa-wm/csgsa-wm.github.io" target="_blank">our GitHub repository</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Join our community and collaborate on exciting research projects!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

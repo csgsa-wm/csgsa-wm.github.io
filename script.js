@@ -1,12 +1,15 @@
+let allProfiles = [];
+
 document.addEventListener('DOMContentLoaded', function() {
     loadProfiles();
+    setupFilters();
 });
 
 async function loadProfiles() {
     try {
         const response = await fetch('profiles.json');
-        const profiles = await response.json();
-        displayProfiles(profiles);
+        allProfiles = await response.json();
+        displayProfiles(allProfiles);
     } catch (error) {
         console.error('Error loading profiles:', error);
         document.getElementById('profile-wall').innerHTML =
@@ -14,8 +17,68 @@ async function loadProfiles() {
     }
 }
 
+function setupFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const category = this.dataset.category;
+
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Filter profiles
+            filterProfiles(category);
+        });
+    });
+}
+
+function categorizeProfile(profile) {
+    const securityKeywords = ['security', 'privacy', 'cryptographic', 'secure'];
+    const systemsKeywords = ['iot', 'wireless', 'sensor', 'smart cities', 'edge', 'vehicle'];
+    const aiKeywords = ['ai', 'machine learning', 'generative', 'image processing'];
+    const roboticsKeywords = ['robotics', 'computing', 'vehicle computing'];
+
+    const researchText = profile.researchAreas.join(' ').toLowerCase();
+    const interestsText = profile.interests.toLowerCase();
+    const combinedText = researchText + ' ' + interestsText;
+
+    const categories = [];
+
+    if (securityKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('security');
+    }
+    if (systemsKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('systems');
+    }
+    if (aiKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('ai');
+    }
+    if (roboticsKeywords.some(keyword => combinedText.includes(keyword))) {
+        categories.push('robotics');
+    }
+
+    return categories;
+}
+
+function filterProfiles(category) {
+    let filteredProfiles;
+
+    if (category === 'all') {
+        filteredProfiles = allProfiles;
+    } else {
+        filteredProfiles = allProfiles.filter(profile => {
+            const profileCategories = categorizeProfile(profile);
+            return profileCategories.includes(category);
+        });
+    }
+
+    displayProfiles(filteredProfiles);
+}
+
 function displayProfiles(profiles) {
     const profileWall = document.getElementById('profile-wall');
+    profileWall.innerHTML = ''; // Clear existing profiles
 
     profiles.forEach(profile => {
         const profileCard = createProfileCard(profile);

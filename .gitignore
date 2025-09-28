@@ -25,3 +25,6 @@ go.work.sum
 .env
 
 .playwright-mcp/
+
+.DS_Store
+.vscode/
