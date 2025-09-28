@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Prianka Mandal",
+    "photo": "https://ui-avatars.com/api/?name=Prianka+Mandal&size=150&background=115740&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Candidate, Spring 2026",
+    "researchAreas": ["Security & Privacy", "Usable Security", "IoT Security", "Smart Cities"],
+    "interests": "Usable security and privacy in smart cities and smart homes. Focus on IoT app security certification and privacy practices.",
+    "links": [
+      {"label": "Website", "url": "https://priankamandal.com/"},
+      {"label": "Lab", "url": "https://spl-wm.github.io/"}
+    ]
+  },
+  {
+    "name": "Victor Olaiya",
+    "photo": "https://ui-avatars.com/api/?name=Victor+Olaiya&size=150&background=B99C22&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Student, Spring 2027",
+    "researchAreas": ["Cryptographic APIs", "Software Security", "Developer Security"],
+    "interests": "Cryptographic API implementations by developers and security vulnerabilities in software development.",
+    "links": [
+      {"label": "Website", "url": "https://www.victorolaiya.com/"},
+      {"label": "Email", "url": "mailto:voolaiya@wm.edu"},
+      {"label": "GitHub", "url": "https://github.com/victorolaiya"},
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/victor-olaiya-579995131/"}
+    ]
+  },
+  {
+    "name": "Yichen Luo",
+    "photo": "https://ui-avatars.com/api/?name=Yichen+Luo&size=150&background=115740&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Student",
+    "researchAreas": ["IoT", "Wireless Sensor Networks", "Applied AI", "Edge Computing"],
+    "interests": "IoT systems, wireless sensor networks, and applied AI research in vehicle computing environments.",
+    "links": [
+      {"label": "Lab", "url": "https://sidilu.org/lab.html"}
+    ]
+  },
+  {
+    "name": "Junzhou",
+    "photo": "https://ui-avatars.com/api/?name=Junzhou&size=150&background=B99C22&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Student",
+    "researchAreas": ["Robotics", "Image Processing", "Generative AI", "Vehicle Computing"],
+    "interests": "Robotics research with focus on image processing and generative AI applications in vehicle computing systems.",
+    "links": [
+      {"label": "Lab", "url": "https://sidilu.org/lab.html"}
+    ]
+  },
+  {
+    "name": "Md. Akram Khan",
+    "photo": "https://ui-avatars.com/api/?name=Md+Akram+Khan&size=150&background=115740&color=ffffff&rounded=true&bold=true",
+    "program": "PhD Student, Spring 2028",
+    "researchAreas": ["Security Research", "Secure Platforms"],
+    "interests": "Security research focusing on secure platforms and systems security.",
+    "links": [
+      {"label": "Lab", "url": "https://spl-wm.github.io/"}
+    ]
+  }
+]
